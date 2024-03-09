@@ -51,6 +51,13 @@
       font-size: 1.04rem;
     }
 
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+    }
+
     .left {
       font-size: 1.5rem;
       color: white;
@@ -60,7 +67,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      margin: 80px 0;
+      margin: 130px 0;
     }
 
     .firstSection > div {
@@ -84,9 +91,34 @@
     .purple {
       color: rgb(255, 0, 0);
     }
+    .text-grey {
+      color: gray;
+    }
     #element {
       color: rgb(255, 0, 0);
       font-weight: 900;
+    }
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+    .secondSection .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0px;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0px 100px;
     }
   </style>
   <body>
@@ -117,6 +149,18 @@
         </div>
         <div class="rightSection">
           <img src="PngItem.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Past Experience</h1>
+        <div class="box">
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div>
         </div>
       </section>
     </main>
