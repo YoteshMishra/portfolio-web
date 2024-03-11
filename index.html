@@ -85,6 +85,20 @@
       color: rgb(2, 255, 234);
     }
 
+    .leftSection .buttons {
+      padding: 25px 0px;
+    }
+
+    .leftSection .btn {
+      padding: 12px;
+      background-color: rgb(93, 122, 175);
+      color: white;
+      border: 2px solid white;
+      border-radius: 6px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
     .rightSection img {
       width: 80%;
     }
@@ -132,6 +146,7 @@
       position: relative;
       top: 75px;
       width: 150px;
+      font-size: 14px;
     }
 
     .vertical-desc {
@@ -140,6 +155,31 @@
       color: gray;
       width: 150px;
       font-size: 9px;
+    }
+
+    footer {
+      background-color: rgb(9, 22, 20);
+    }
+
+    .footer {
+      display: flex;
+      margin: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul {
+      list-style: none;
+    }
+
+    .footer > div {
+      width: 225px;
+      margin: 23px;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+      color: gray;
+      padding: 12px 0px;
     }
   </style>
   <body>
@@ -167,6 +207,10 @@
             <mark style="background: #d0ff00">and I am a Passionate</mark>
           </div>
           <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
         </div>
         <div class="rightSection">
           <img src="PngItem.png" alt="" />
@@ -179,10 +223,8 @@
         <h1>Past Experience</h1>
         <div class="box">
           <div class="vertical">
-            <img class="image-top" src="for.png" alt="" />
-            <div class="vertical-title">
-              RPA Developer(July 2021 to Sept 2023)
-            </div>
+            <img class="image-top" src="ht.png" alt="" />
+            <div class="vertical-title">Frontend Developer Hands-on</div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem
               totam vel dolor laudantium sint tempore officiis vero? Atque quae
@@ -191,9 +233,9 @@
             </div>
           </div>
           <div class="vertical">
-            <img class="image-top" src="for.png" alt="" />
+            <img class="image-top" src="rpa.png" alt="" />
             <div class="vertical-title">
-              Frontend Developer Hands-on(July 2021 to Sept 2023)
+              RPA Developer(July 2021 to Sept 2023)
             </div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem
@@ -205,6 +247,42 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Yotesh's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; yoteshsportfolio.com | All rights reserved
+      </div>
+    </footer>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
