@@ -100,7 +100,7 @@
     }
 
     .rightSection img {
-      width: 80%;
+      width: 76%;
     }
     .purple {
       color: rgb(255, 0, 0);
@@ -132,7 +132,7 @@
       height: 93px;
       width: 1px;
       background-color: white;
-      margin: 0px 100px;
+      margin: 0px 6vw;
     }
 
     .image-top {
@@ -181,6 +181,62 @@
       color: gray;
       padding: 12px 0px;
     }
+
+    @media screen and (max-width: 1000px) {
+      body {
+        /* background-color: red; */
+      }
+
+      .box {
+        flex-direction: column;
+      }
+
+      .secondSection .vertical {
+        height: unset;
+      }
+      .image-top {
+        top: 103px;
+      }
+
+      .vertical-title,
+      .vertical-desc {
+        left: 45px;
+      }
+
+      .secondSection .box {
+        width: 73vw;
+        margin: 56px 21px;
+      }
+
+      navigation {
+        flex-direction: column;
+      }
+
+      .footer {
+        display: none;
+      }
+      .firstSection {
+        flex-direction: column-reverse;
+      }
+
+      .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .rightSection {
+        width: 600px !important;
+        display: grid;
+      }
+      .secondSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   </style>
   <body>
     <header>
@@ -224,7 +280,9 @@
         <div class="box">
           <div class="vertical">
             <img class="image-top" src="ht.png" alt="" />
-            <div class="vertical-title">Frontend Developer Hands-on</div>
+            <div class="vertical-title">
+              UI Developer (Mar 2023 to Sept 2023)
+            </div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem
               totam vel dolor laudantium sint tempore officiis vero? Atque quae
@@ -235,7 +293,7 @@
           <div class="vertical">
             <img class="image-top" src="rpa.png" alt="" />
             <div class="vertical-title">
-              RPA Developer(July 2021 to Sept 2023)
+              RPA Developer(Sept 2021 to Mar 2023)
             </div>
             <div class="vertical-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem
